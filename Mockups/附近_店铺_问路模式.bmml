@@ -1,0 +1,47 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1095" measuredH="324" mockupW="1007" mockupH="282">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="522" y="42" w="-1" h="-1" measuredW="573" measuredH="282" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+        <orientation>landscape</orientation>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="101" y="72" w="-1" h="-1" measuredW="400" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u9644%u8FD1%uFF1A%u5E97%u94FA%uFF1A%u95EE%u8DEF%u6A21%u5F0F</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Paragraph" x="88" y="157" w="300" h="142" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6A2A%u5C4F%u65F6%uFF0C%u7ED9%u51FA%u5E97%u540D%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u53CA%u5730%u5740%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u5E2E%u52A9%u95EE%u8DEF%u3002%u540C%u65F6%u7ED9%u51FA%u5E97%u94FA%u95E8%u8138%u7684%u7167%u7247%u4F9B%u53C2%u8003%u3002%0A%20%0A%u8FD9%u4E00%u95EE%u8DEF%u6A21%u5F0F%u53EF%u80FD%u5F88%u591A%u7528%u6237%u65E0%u6CD5%u4E3B%u52A8%u53D1%u73B0%uFF0C%u8003%u8651%u5728%u7CFB%u7EDF%u53D1%u7ED9%u7528%u6237%u7684%u7B2C%u4E00%u6761%u6D88%u606F%u4E2D%uFF0C%u63D0%u793A%u8FD9%u4E2A%u64CD%u4F5C%u5C0F%u6280%u5DE7%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Image" x="617" y="93" w="164" h="187" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Label" x="808" y="108" w="-1" h="-1" measuredW="158" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Hermes%20in%205th%20avenue</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Label" x="805" y="144" w="-1" h="-1" measuredW="159" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>222%2C%205th%20avenue%2C%20New%20York</text>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Label" x="808" y="188" w="-1" h="-1" measuredW="128" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>%u4E8C%u9A6C%u4ED5%u7B2C%u4E94%u5927%u9053%u5E97</text>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Label" x="805" y="224" w="-1" h="-1" measuredW="142" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u7EBD%u7EA6%uFF0C%u7B2C%u4E94%u5927%u9053%uFF0C222%u53F7</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

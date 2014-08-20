@@ -1,2 +1,4 @@
 # Ignore vim temperary files:
 *~
+*.swp
+

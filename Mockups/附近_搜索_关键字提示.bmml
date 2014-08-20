@@ -1,0 +1,47 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="804" measuredH="615" mockupW="717" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="522" y="42" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="101" y="72" w="-1" h="-1" measuredW="407" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u9644%u8FD1_%u641C%u7D22_%u5173%u952E%u5B57%u63D0%u793A</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="87" y="134" w="292" h="80" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%26%u9644%u8FD1_%u641C%u7D22_%u5173%u952E%u5B57%u63D0%u793A%26%20%u57FA%u4E8E%u8F6F%u4EF6%u540E%u53F0%u7EDF%u8BA1%uFF0C%u5BF9%u7528%u6237%u5F53%u524D%u6B63%u5728%u8F93%u5165%u7684%u5173%u952E%u5B57%u8FDB%u884C%u63D0%u793A%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Paragraph" x="88" y="197" w="300" h="80" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u53C2%u8003%u5FAE%u4FE1%u548C%u5927%u4F17%u70B9%u8BC4%u7684%u641C%u7D22%u754C%u9762%u8BBE%u8BA1%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::TextInput" x="610" y="149" w="117" h="-1" measuredW="27" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>focused</state>
+        <text>%u4E8C</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::iPhoneKeyboard" x="550" y="371" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::RoundButton" x="699" y="152" w="23" h="19" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>x</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="554" y="183" w="-1" h="-1" measuredW="215" measuredH="213" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u4E8C%u9A6C%u4ED5%2C%205%u4E2A%u7ED3%u679C%0A%u4E8C%u5B50%u76AE%u5177%2C%2097%u4E2A%u7ED3%u679C%0A%u4E8C%u5341%u56DBK%u91D1%u8868%2C%20188%u4E2A%u7ED3%u679C%0A%u4E8C%u5927%u8857%2C%20310%u4E2A%u7ED3%u679C%0A%u4E8C%u53F7%u4E2D%u592E%u5927%u9053%2C%20249%u4E2A%u7ED3%u679C%0A%u4E8C%u516B%u516C%u56ED%2C%2017%u4E2A%u7ED3%u679C%0A%u2026%u2026</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="144" w="226" h="39" measuredW="226" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>%u53D6%u6D88%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2C%u641C%u7D22</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

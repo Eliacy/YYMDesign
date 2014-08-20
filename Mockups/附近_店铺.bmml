@@ -279,9 +279,15 @@
         <text>%u4ED8%u6B3E%u65B9%u5F0F%uFF1AVISA%u3001%u94F6%u8054</text>
       </controlProperties>
     </control>
-    <control controlID="120" controlTypeID="com.balsamiq.mockups::Paragraph" x="88" y="357" w="300" h="80" measuredW="200" measuredH="80" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Paragraph" x="88" y="357" w="300" h="142" measuredW="200" measuredH="80" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%u6A2A%u5C4F%u65F6%uFF0C%u7ED9%u51FA%u5E97%u540D%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u53CA%u5730%u5740%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u5E2E%u52A9%u95EE%u8DEF%u3002%u540C%u65F6%u7ED9%u51FA%u5E97%u94FA%u95E8%u8138%u7684%u7167%u7247%u4F9B%u53C2%u8003%u3002</text>
+        <text>%u6A2A%u5C4F%u65F6%uFF0C%u7ED9%u51FA%u5E97%u540D%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u53CA%u5730%u5740%u7684%u5F53%u5730%u6587%u5B57%u7FFB%u8BD1%uFF0C%u5E2E%u52A9%u95EE%u8DEF%u3002%u540C%u65F6%u7ED9%u51FA%u5E97%u94FA%u95E8%u8138%u7684%u7167%u7247%u4F9B%u53C2%u8003%u3002%0A%20%0A%u8FD9%u4E00%u95EE%u8DEF%u6A21%u5F0F%u53EF%u80FD%u5F88%u591A%u7528%u6237%u65E0%u6CD5%u4E3B%u52A8%u53D1%u73B0%uFF0C%u8003%u8651%u5728%u7CFB%u7EDF%u53D1%u7ED9%u7528%u6237%u7684%u7B2C%u4E00%u6761%u6D88%u606F%u4E2D%uFF0C%u63D0%u793A%u8FD9%u4E2A%u64CD%u4F5C%u5C0F%u6280%u5DE7%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::RoundButton" x="740" y="449" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>%u2191</text>
       </controlProperties>
     </control>
   </controls>

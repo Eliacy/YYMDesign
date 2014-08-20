@@ -127,5 +127,11 @@
         <text>%u7528%u6237%u4E0A%u4F20%u7684%u56FE%u7247%u9700%u8981%u81EA%u52A8%u7F8E%u5316%uFF01</text>
       </controlProperties>
     </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::RoundButton" x="740" y="449" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>%u2191</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
