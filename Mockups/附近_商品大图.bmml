@@ -15,10 +15,10 @@
         <text>%26%u9644%u8FD1_%u5546%u54C1%u5927%u56FE%26%20%u653E%u5927%u5C55%u793A%u67D0%u5546%u54C1%u7684%u56FE%u7247%uFF0C%u5E76%u63D0%u4F9B%u53BB%u5F80%u67E5%u770B%u5168%u90E8%u56FE%u7247%u7684%u94FE%u63A5%u3002</text>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="144" w="226" h="39" measuredW="210" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="144" w="226" h="39" measuredW="224" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <selectedIndex>-1</selectedIndex>
-        <text>%3C%u641C%u7D22%2C%20%20%20%u7167%u7247%uFF1A1%20of%205%20%20%20%2C%20%20%20%20</text>
+        <text>%3C%u641C%u7D22%2C%20%20%20%u7167%u7247%uFF1A1%20of%205%20%20%20%2C%20%u8FDB%u5E97</text>
       </controlProperties>
     </control>
     <control controlID="20" controlTypeID="com.balsamiq.mockups::Webcam" x="557" y="195" w="39" h="33" measuredW="177" measuredH="146" zOrder="4" locked="false" isInGroup="-1"/>
