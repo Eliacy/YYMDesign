@@ -1,0 +1,30 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="804" measuredH="615" mockupW="717" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="522" y="42" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="101" y="72" w="-1" h="-1" measuredW="200" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6211%u7684%uFF1A%u8BBE%u7F6E</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="87" y="134" w="292" h="80" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%26%u6211%u7684%uFF1A%u8BBE%u7F6E%26%20%u63A7%u5236%20App%20%u81EA%u8EAB%u7684%u4E00%u4E9B%u529F%u80FD%u53C2%u6570%u3002%u968F%u7740%u529F%u80FD%u5B8C%u5584%u9010%u6E10%u6DFB%u52A0%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="144" w="226" h="39" measuredW="157" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>%3C%u6211%u7684%2C%20%20%20%u8BBE%u7F6E%20%20%20%2C%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="555" y="186" w="-1" h="-1" measuredW="215" measuredH="129" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u5C06%u63A8%u9001%u5230%u624B%u673A%u7684%u6D88%u606F%u7C7B%u522B%uFF1A%0A%u7CFB%u7EDF%u6D88%u606F%u63A8%u9001%2C%20ON%0A%u79C1%u4FE1%u6D88%u606F%u63A8%u9001%2C%20ON%0A%u56DE%u590D%u63D0%u9192%u63A8%u9001%2C%20ON</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

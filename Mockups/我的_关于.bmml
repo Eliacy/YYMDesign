@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="804" measuredH="615" mockupW="717" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="522" y="42" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Title" x="101" y="72" w="-1" h="-1" measuredW="200" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6211%u7684%uFF1A%u5173%u4E8E</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Paragraph" x="87" y="134" w="292" h="80" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%26%u6211%u7684%uFF1A%u5173%u4E8E%26%20%u5C55%u793A%u8F6F%u4EF6%u7248%u672C%u53F7%u53CA%u516C%u53F8%u57FA%u672C%u4FE1%u606F%u3002</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="144" w="226" h="39" measuredW="157" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>%3C%u6211%u7684%2C%20%20%20%u5173%u4E8E%20%20%20%2C%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Image" x="589" y="191" w="151" h="79" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Link" x="647" y="245" w="-1" h="-1" measuredW="113" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//xxxxxxx.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="620" y="282" w="-1" h="-1" measuredW="72" measuredH="26" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>%u5F53%u524D%u7248%u672C</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="698" y="286" w="-1" h="-1" measuredW="16" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1.0</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="574" y="354" w="-1" h="-1" measuredW="190" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u5317%u4EAC%u4EC0%u4E48%u4EC0%u4E48%u6709%u9650%u516C%u53F8%20%20%u7248%u6743%u6240%u6709</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="578" y="380" w="-1" h="-1" measuredW="185" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Copyright%20%A9%202014%20xxxxxxx.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="608" y="410" w="-1" h="-1" measuredW="121" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20Rights%20Reserved.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
