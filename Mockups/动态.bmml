@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="804" measuredH="615" mockupW="717" mockupH="573">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="894" measuredH="615" mockupW="807" mockupH="573">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="522" y="42" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -74,11 +74,11 @@
             <text>xx%20%u5F20</text>
           </controlProperties>
         </control>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="9" y="226" w="30" h="21" measuredW="40" measuredH="27" zOrder="7" locked="false" isInGroup="35">
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="9" y="226" w="38" h="21" measuredW="51" measuredH="27" zOrder="7" locked="false" isInGroup="35">
           <controlProperties>
             <menuIcon>false</menuIcon>
             <size>11</size>
-            <text>%u8D5E7</text>
+            <text>%u559C%u6B227</text>
           </controlProperties>
         </control>
         <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="165" y="262" w="-1" h="-1" measuredW="48" measuredH="27" zOrder="8" locked="false" isInGroup="35">
@@ -86,11 +86,11 @@
             <text>%u5206%u4EAB</text>
           </controlProperties>
         </control>
-        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="47" y="226" w="32" h="21" measuredW="40" measuredH="27" zOrder="9" locked="false" isInGroup="35">
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="57" y="226" w="37" h="21" measuredW="51" measuredH="27" zOrder="9" locked="false" isInGroup="35">
           <controlProperties>
             <menuIcon>false</menuIcon>
             <size>11</size>
-            <text>%u8BC43</text>
+            <text>%u8BC4%u8BBA3</text>
           </controlProperties>
         </control>
         <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="8" y="272" w="-1" h="-1" measuredW="143" measuredH="19" zOrder="10" locked="false" isInGroup="35">
@@ -131,6 +131,16 @@
       <controlProperties>
         <color>11982760</color>
         <text>%u2191</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Button" x="846" y="148" w="-1" h="-1" measuredW="48" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u7CBE%u9009</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Button" x="846" y="174" w="-1" h="-1" measuredW="48" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u6700%u65B0</text>
       </controlProperties>
     </control>
   </controls>
