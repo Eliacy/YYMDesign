@@ -89,14 +89,8 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="79" controlTypeID="com.balsamiq.mockups::ButtonBar" x="550" y="490" w="226" h="42" measuredW="200" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
-      <controlProperties>
-        <selectedIndex>2</selectedIndex>
-        <text>%u9996%u9875%2C%20%u52A8%u6001%2C%20%u9644%u8FD1%2C%20%u6211%u7684</text>
-      </controlProperties>
-    </control>
     <control controlID="80" controlTypeID="com.balsamiq.mockups::Canvas" x="551" y="260" w="236" h="119" measuredW="100" measuredH="70" zOrder="18" locked="false" isInGroup="-1"/>
-    <control controlID="83" controlTypeID="__group__" x="560" y="269" w="214" h="97" measuredW="214" measuredH="97" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="83" controlTypeID="__group__" x="560" y="269" w="214" h="97" measuredW="214" measuredH="97" zOrder="19" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="1" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="0" locked="false" isInGroup="83"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="56" y="0" w="-1" h="-1" measuredW="104" measuredH="21" zOrder="1" locked="false" isInGroup="83">
@@ -163,6 +157,22 @@
             <size>9</size>
             <text>%u8C6A%u534E</text>
             <underline>true</underline>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="84" controlTypeID="__group__" x="550" y="490" w="226" h="42" measuredW="226" measuredH="42" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::ButtonBar" x="0" y="0" w="226" h="42" measuredW="219" measuredH="26" zOrder="0" locked="false" isInGroup="84">
+          <controlProperties>
+            <selectedIndex>3</selectedIndex>
+            <size>12</size>
+            <text>%u9996%u9875%2C%u52A8%u6001%2C%20%20%20%20%2C%u9644%u8FD1%2C%u6211%u7684</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="97" y="3" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="84">
+          <controlProperties>
+            <icon>AsteriskIcon%7Cmedium</icon>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
