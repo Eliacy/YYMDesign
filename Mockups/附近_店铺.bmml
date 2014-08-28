@@ -55,10 +55,10 @@
         <text>%u76AE%u5305%20%7C%20%u8155%u8868%20%7C%20%u670D%u88C5</text>
       </controlProperties>
     </control>
-    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="559" y="412" w="-1" h="-1" measuredW="209" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="559" y="412" w="-1" h="-1" measuredW="198" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <size>11</size>
-        <text>%u5927%u5BB6%u89C9%u5F97%uFF1A%u8C6A%u534E%u5962%u4F88%uFF0C%u771F%u6B63%u54C1%u5473%uFF0C%u9650%u91CF%u91C7%u8D2D</text>
+        <text>%u5173%u952E%u8BCD%uFF1A%u8C6A%u534E%u5962%u4F88%uFF0C%u771F%u6B63%u54C1%u5473%uFF0C%u9650%u91CF%u91C7%u8D2D</text>
       </controlProperties>
     </control>
     <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="613" y="268" w="-1" h="-1" measuredW="158" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
