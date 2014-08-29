@@ -87,12 +87,12 @@
         </control>
         <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="83" y="41" w="-1" h="-1" measuredW="52" measuredH="19" zOrder="2" locked="false" isInGroup="88">
           <controlProperties>
-            <text>%u62CD%u7167%u4E0A%u4F20</text>
+            <text>%u62CD%u7167%u521B%u5EFA</text>
           </controlProperties>
         </control>
         <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="53" y="71" w="-1" h="-1" measuredW="104" measuredH="19" zOrder="3" locked="false" isInGroup="88">
           <controlProperties>
-            <text>%u4E0A%u4F20%u624B%u673A%u4E2D%u7684%u7167%u7247</text>
+            <text>%u4F7F%u7528%u624B%u673A%u4E2D%u7684%u7167%u7247</text>
           </controlProperties>
         </control>
         <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="0" y="107" w="215" h="27" measuredW="48" measuredH="27" zOrder="4" locked="false" isInGroup="88">
