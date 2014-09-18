@@ -67,9 +67,9 @@
         <text>%u7C89%u4E1D300%uFF09</text>
       </controlProperties>
     </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="554" y="290" w="-1" h="-1" measuredW="215" measuredH="184" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="554" y="290" w="-1" h="-1" measuredW="215" measuredH="213" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%u6211%u7684%u8349%u7A3F%2C%20%3E%0A%u6211%u7684%u6298%u6263%u5238%2C%20%3E%0A%u6211%u7684%u5C0F%u8D34%u58EB%2C%20%3E%0A%u6211%u7684%u5907%u5FD8%u5F55%2C%20%3E%0A%u610F%u89C1%u53CD%u9988%2C%20%3E%0A%u5173%u4E8E%2C%20%3E</text>
+        <text>%u6211%u7684%u8349%u7A3F%2C%20%3E%0A%u6211%u7684%u6298%u6263%u5238%2C%20%3E%0A%u6211%u7684%u5C0F%u8D34%u58EB%2C%20%3E%0A%u6211%u7684%u5907%u5FD8%u5F55%2C%20%3E%0A%u7ED9%u4F18%u6E38%u7F8E%u7709%u597D%u8BC4%2C%20%3E%0A%u610F%u89C1%u53CD%u9988%2C%20%3E%0A%u5173%u4E8E%2C%20%3E</text>
       </controlProperties>
     </control>
     <control controlID="69" controlTypeID="com.balsamiq.mockups::Paragraph" x="88" y="257" w="300" h="80" measuredW="200" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
