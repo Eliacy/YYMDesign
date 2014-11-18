@@ -395,5 +395,25 @@
         </control>
       </groupChildrenDescriptors>
     </control>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::Image" x="840" y="495" w="219" h="102" measuredW="77" measuredH="79" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u7F8E%u56FD%u7684%u6D77%u6DD8%u5723%u5730%20XXX</text>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::Label" x="851" y="570" w="67" h="-1" measuredW="61" measuredH="21" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2014.08.11</text>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="__group__" x="1000" y="570" w="50" h="21" measuredW="50" measuredH="21" zOrder="41" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="50" h="21" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="147"/>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="9" y="0" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="1" locked="false" isInGroup="147">
+          <controlProperties>
+            <text>%u6D3B%u52A8</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
   </controls>
 </mockup>
