@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+		<title></title>
+		<link rel="stylesheet" href="style/main.css">
+		<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+		<!--请用您的key替换测试key-->
+		<script src="http://webapi.amap.com/maps?v=1.3&key=061bcc2ee7e59472bd94fa52eb36484e"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script language="javascript">
+			var mapObj;
+			var marker = new Array();
+			var windowsArr = new Array();
+
+			function mapInit() {
+				//mapObj = new AMap.Map("shop_map");
+				mapObj = new AMap.Map("shop_map", {
+					touchZoom: true,
+					zoomEnable: true,
+					lang: "zh_cn" //设置语言类型，中文简体
+				});
+				geocoder("010", "北京市海淀区苏州街"); //这里设置程序区号和店铺位置
+			}
+
+			function geocoder(area, keyword) {
+				var MGeocoder;
+				//加载地理编码插件
+				AMap.service(["AMap.Geocoder"], function() {
+					MGeocoder = new AMap.Geocoder({
+						city: area, //城市，默认：“全国”
+						radius: 500 //范围，默认：500
+
+					});
+					//返回地理编码结果  
+					//地理编码
+					MGeocoder.getLocation(keyword, function(status, result) {
+						if (status === 'complete' && result.info === 'OK') {
+							geocoder_CallBack(result);
+						}
+					});
+				});
+			}
+
+			function addmarker(i, d) {
+					var lngX = d.location.getLng();
+					var latY = d.location.getLat();
+					var markerOption = {
+						map: mapObj,
+						icon: "http://webapi.amap.com/images/" + (i + 1) + ".png",
+						position: new AMap.LngLat(lngX, latY)
+					};
+					var mar = new AMap.Marker(markerOption);
+					marker.push(new AMap.LngLat(lngX, latY));
+
+					var infoWindow = new AMap.InfoWindow({
+						content: d.formattedAddress,
+						autoMove: true,
+						size: new AMap.Size(150, 0),
+						offset: {
+							x: 0,
+							y: -30
+						}
+					});
+					windowsArr.push(infoWindow);
+
+					var aa = function(e) {
+						infoWindow.open(mapObj, mar.getPosition());
+					};
+					AMap.event.addListener(mar, "click", aa);
+				}
+				//地理编码返回结果展示   
+
+			function geocoder_CallBack(data) {
+
+				//地理编码结果数组
+				var geocode = new Array();
+				geocode = data.geocodes;
+				for (var i = 0; i < geocode.length; i++) {
+					//拼接输出html
+					// resultStr += "<span style=\"font-size: 12px;padding:0px 0 4px 2px; border-bottom:1px solid #C1FFC1;\">"+"<b>地址</b>："+geocode[i].formattedAddress+""+ "<b>&nbsp;&nbsp;&nbsp;&nbsp;坐标</b>：" + geocode[i].location.getLng() +", "+ geocode[i].location.getLat() +""+ "<b>&nbsp;&nbsp;&nbsp;&nbsp;匹配级别</b>：" + geocode[i].level +"</span>";   
+					addmarker(i, geocode[i]);
+				}
+				mapObj.setFitView();
+				//document.getElementById("result").innerHTML = resultStr;  
+			}
+			$(function() {
+				touch.on(".tickets_info", 'tap', function(ev) {
+					
+					$(".tickets_info").css({overflow:"auto",height:"auto"}).find(".more_tickets").hide();
+				});
+			})
+		</script>
+
+	</head>
+
+	<body onload="mapInit()">
+		<!--头-->
+		<header class="clearfix">
+			<div class="msg_header"><span class="icon_msg_header"></span>
+			</div>
+			<div class="title">店铺主页</div>
+			<div class="clearfix">
+				<a href="#" class="icon_heart_empty"></a>
+				<a href="#" class="icon_edit"></a>
+			</div>
+		</header>
+		<!--内容-->
+		<section>
+			<div class="store">
+				<div class="store_data clearfix">
+					<img src="images/pic/pic_store.png" class="pic_store" />
+					<div class="data">
+						<p class="name clearfix"><span class="icon_s">S</span>二玛仕第五大道店</p>
+						<div class="info clearfix">
+							<p class="msg"><span class="icon_msg_gray"></span><span class="number">32</span>
+							</p>
+							<p class="star clearfix"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span>
+							</p>
+						</div>
+						<div class="info_1">
+							<ul>
+								<li>皮包｜腕表｜服装</li>
+								<li>环境： 人少，安静</li>
+								<li>付款方式：
+									<img src="images/icon/icon_pay.png" class="icon_pay" />
+								</li>
+								<li>中文菜单： 有</li>
+								<li class="tickets_info">门票： $20，18岁以下免费<span class="more_tickets">...</span>
+									<br>门票： $20，18岁以下免费</li>
+								<li>提前预约： 仅电话</li>
+								<li>营业时间： 上午8:00－下午9:30</li>
+								<li>电话号码： <span class="blue">（917）826-1174</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="store_intro">
+					<dl>
+						<dt>简介</dt>
+						<dd>爱马仕被称为名媛的专属品牌，第五大道店是其旗舰店，可以一站选购最全的产品。必逛！</dd>
+					</dl>
+				</div>
+				<div class="map">
+					<div class="map" id="shop_map"></div>
+					<div class="map_info clearfix" id="btn_inMap" rel="北京市海淀区苏州街">
+						<span class="icon_goto"></span>
+						<p>纽约,第五大道,222号</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="hotGoods">
+				<div class="tag">
+					大家觉得：<span class="bg_green">豪华奢侈</span><span class="bg_blue">豪华奢侈</span><span class="bg_purple">豪华奢侈</span><span class="bg_pink">豪华奢侈</span><span class="icon_gray_arrow"></span>
+				</div>
+				<ul class="goodsList clearfix">
+					<li>
+						<img src="images/pic/pic_goods.jpg" />
+					</li>
+					<li>
+						<img src="images/pic/pic_goods.jpg" />
+					</li>
+					<li>
+						<img src="images/pic/pic_goods.jpg" />
+					</li>
+				</ul>
+				<div class="go">
+					<p><span class="icon_go"></span><span>查看所有10张图片</span>
+					</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="comment">
+				<ul>
+					<li class="clearfix">
+						<img src="images/pic/pic_goods.jpg" class="goodsShow" />
+						<div class="data">
+							<p class="info">适合我的风格，比在国内买要便宜多了。最关键的是此款是米国限量款...</p>
+							<div class="function clearfix">
+								<span class="name">刘也行</span>
+								<div class="clearfix">
+									<p class="function_item"><span class="icon_heart"></span><span class="number">7</span>
+									</p>
+									<p class="function_item"><span class="icon_msg"></span><span class="number">3</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="clearfix">
+						<img src="images/pic/pic_goods.jpg" class="goodsShow" />
+						<div class="data">
+							<p class="info">适合我的风格，比在国内买要便宜多了。最关键的是此款是米国限量款...</p>
+							<div class="function clearfix">
+								<span class="name">刘也行</span>
+								<div class="clearfix">
+									<p class="function_item"><span class="icon_heart"></span><span class="number">7</span>
+									</p>
+									<p class="function_item"><span class="icon_msg"></span><span class="number">3</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="go">
+					<p><span class="icon_go"></span><span>查看所有25条评论晒单</span>
+					</p>
+				</div>
+			</div>
+		</section>
+	</body>
+
+</html>
